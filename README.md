@@ -41,6 +41,7 @@ The goal was to simulate a real-world e-commerce scenario and leverage Power BI 
 ## 📸 Dashboard Screenshots
 ![Dashboard Preview](https://github.com/user-attachments/assets/34cdb445-d957-455e-be02-527ea2f67edd)
 
+![Dashboard Screenshot](https://github.com/user-attachments/assets/c442eb99-97e6-4e3a-9068-b75b70eabf83)
 
 ---
 
