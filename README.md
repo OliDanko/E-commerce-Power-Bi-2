@@ -1,52 +1,71 @@
-# Hotel Booking Database Project
+# 📊 E-commerce Analytics Dashboard | Power BI Project
 
-This project simulates a **relational database** for a hotel booking system and demonstrates core **SQL skills** and **database management concepts** in action.
+## 📝 Overview
 
-## Project Overview
+This project showcases an interactive Power BI dashboard created using e-commerce sales data. The dashboard highlights key business metrics, customer behavior, sales performance, and regional trends.
 
-The goal of this project is to build a **mini hotel management system** using SQL. It covers:
+The goal was to simulate a real-world e-commerce scenario and leverage Power BI to create insightful and dynamic visualizations. The entire report is powered by an Excel dataset that includes details about orders, products, categories, customers, sales amounts, and locations.
 
-- Table creation with proper relationships  
-- Sample data insertion for realistic scenarios  
-- Analytical queries for business insights  
+---
 
-The database includes four main entities:
+## 🔍 Dashboard Insights
 
-- `Guests` – personal information about hotel guests  
-- `Rooms` – details on room types and pricing  
-- `Bookings` – reservation records with check-in and check-out dates  
-- `Payments` – payment transactions for each booking  
+- 📦 **Total Orders**
+- 💰 **Total Sales & Profit**
+- 📈 **Monthly and Daily Trends**
+- 🛒 **Sales by Category and Sub-Category**
+- 🌍 **Sales by Country and City**
+- 👤 **Top Customers**
+- 🧮 **Average Order Value & Profit Margins**
 
-## Technologies Used
+---
 
-- SQL (MySQL syntax)  
-- Local SQL environment 
+## 📂 Files Included
 
-## Sample Insights & Query Highlights
+- `ecommerce-dashboard.pbix` → Power BI file with full report  
+- `ecommerce-sales.xlsx` → Raw Excel dataset  
+- `/visuals/` → Dashboard screenshots  
 
-This project includes SQL queries that answer real business questions:
+---
 
-- Number of bookings per guest  
-- Guest age calculation from date of birth  
-- Average price per night by room type  
-- Stay duration and booking day trends  
-- Ranking of guests by total payments  
+## 🧠 Skills Applied
 
-Techniques used:
+- Data import and transformation in Power BI  
+- Data modeling using relationships and hierarchies  
+- Creating DAX measures and calculated columns  
+- Designing interactive visuals with slicers and filters  
+- Clean and intuitive dashboard design  
 
-- SELECT, JOIN, GROUP BY, ORDER BY  
-- Aggregation (SUM, AVG, COUNT, etc.)  
-- CASE WHEN statements  
-- NULL handling  
-- Window functions (e.g., RANK, ROW_NUMBER)
+---
 
-## File Contents
+## 📸 Dashboard Screenshots
+![Dashboard Preview](https://github.com/user-attachments/assets/a29602ac-b69a-4c1c-8465-330d578274d2)
 
-- `hotel_schema.sql` – database schema (CREATE TABLE)  
-- `sample_data.sql` – sample data for all tables  
-- `analysis_queries.sql` – queries for insights and reporting  
-- `README.md` – this documentation
+![Dashboard Screenshot](https://github.com/user-attachments/assets/579d07f6-9aa6-4f8b-adc2-478585d64c0a)
 
+
+
+---
+
+## ⚙️ Tools & Features
+
+- **Tool:** Microsoft Power BI  
+- **Data Sources:** Excel (.xlsx), CSV files  
+- **Features Used:**  
+  - Slicers and filters  
+  - Dynamic DAX measures  
+  - Interactive charts and KPIs  
+  - Responsive layout for business storytelling  
+
+---
+
+## 📈 Key DAX Measures
+
+```DAX
+Total Sales = SUM(Sales[SalesAmount])
+Total Orders = COUNT(Sales[OrderID])
+Average Order Value = DIVIDE([Total Sales], [Total Orders])
+Profit Margin = DIVIDE([Total Profit], [Total Sales])
 ## Use Case
 
 This project is ideal for showcasing:
