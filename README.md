@@ -40,14 +40,8 @@ The goal was to simulate a real-world e-commerce scenario and leverage Power BI 
 
 ## 📸 Dashboard Screenshots
 
-### 💡 KPI Overview  
-![KPI Overview](visuals/kpi-overview.png)
-
-### 📍 Sales by Region  
-![Sales Map](visuals/sales-map.png)
-
-### 📆 Monthly Trends  
-![Monthly Sales](visuals/monthly-trends.png)
+```markdown
+![KPI Overview](Power-BI-project-using-e-commerce-Excel-dataset/kpi-Dashboard Preview.png)
 
 ---
 
