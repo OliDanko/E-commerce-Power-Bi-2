@@ -1,75 +1,51 @@
-# 📊 E-commerce Analytics Dashboard | Power BI Project
+# Advanced E-commerce Analytics (Power BI)
 
-## 📝 Overview
+## About
+An extended version of the e-commerce analytics project with advanced KPIs and DAX measures.  
+This dashboard provides deeper insights into profitability and customer retention.  
 
-This project showcases an interactive Power BI dashboard created using e-commerce sales data. The dashboard highlights key business metrics, customer behavior, sales performance, and regional trends.
-
-The goal was to simulate a real-world e-commerce scenario and leverage Power BI to create insightful and dynamic visualizations. The entire report is powered by an Excel dataset that includes details about orders, products, categories, customers, sales amounts, and locations.
-
----
-
-## 🔍 Dashboard Insights
-
-- 📦 **Total Orders**
-- 💰 **Total Sales & Profit**
-- 📈 **Monthly and Daily Trends**
-- 🛒 **Sales by Category and Sub-Category**
-- 🌍 **Sales by Country and City**
-- 👤 **Top Customers**
-- 🧮 **Average Order Value & Profit Margins**
+Rozšírená verzia e-commerce analytického projektu s pokročilými KPI a DAX mierami.  
+Dashboard ponúka detailnejší pohľad na ziskovosť a udržanie zákazníkov.  
 
 ---
 
-## 📂 Files Included
-
-- `ecommerce-dashboard.pbix` → Power BI file with full report  
-- `ecommerce-sales.xlsx` → Raw Excel dataset  
-- `/visuals/` → Dashboard screenshots  
+## Dataset
+- Same e-commerce dataset, enriched with profit margin calculations.  
+- Rovnaký dataset doplnený o výpočet marží.  
 
 ---
 
-## 🧠 Skills Applied
-
-- Data import and transformation in Power BI  
-- Data modeling using relationships and hierarchies  
-- Creating DAX measures and calculated columns  
-- Designing interactive visuals with slicers and filters  
-- Clean and intuitive dashboard design  
+## Tools Used
+- Power BI  
+- DAX (YTD, MTD, Profit Margin, Customer Retention Rate)  
+- Excel  
 
 ---
 
-## 📸 Dashboard Screenshots
-![Dashboard Preview](https://github.com/user-attachments/assets/a29602ac-b69a-4c1c-8465-330d578274d2)
-
-![Dashboard Screenshot](https://github.com/user-attachments/assets/579d07f6-9aa6-4f8b-adc2-478585d64c0a)
-
-
-
----
-
-## ⚙️ Tools & Features
-
-- **Tool:** Microsoft Power BI  
-- **Data Sources:** Excel (.xlsx), CSV files  
-- **Features Used:**  
-  - Slicers and filters  
-  - Dynamic DAX measures  
-  - Interactive charts and KPIs  
-  - Responsive layout for business storytelling  
+## Business Questions
+1. What is the **profit margin** by product category?  
+2. Which customers generate the highest **Customer Lifetime Value (CLV)?**  
+3. How effective are discounts on sales growth?  
+4. What is the year-to-date performance compared to previous year?  
 
 ---
 
-## 📈 Key DAX Measures
+## Key Insights
+- **High-value customers (top 20%)** bring in 65% of total profit.  
+- Discounts boost short-term sales but reduce margins significantly.  
+- CLV analysis highlights retention as key to long-term growth.  
 
-```DAX
-Total Sales = SUM(Sales[SalesAmount])
-Total Orders = COUNT(Sales[OrderID])
-Average Order Value = DIVIDE([Total Sales], [Total Orders])
-Profit Margin = DIVIDE([Total Profit], [Total Sales])
-## Use Case
+---
 
-This project is ideal for showcasing:
+## Files in Repository
+- `advanced_dashboard.pbix`  
+- `dataset.xlsx`  
+- `screenshots/`  
 
-- Relational database design  
-- SQL query building  
+---
+
+## How to Use
+1. Open the PBIX file in Power BI.  
+2. Review advanced KPIs on profitability and retention.  
+3. Use filters to compare periods and customer segments.  
 - Analytical thinking in a hotel management context
